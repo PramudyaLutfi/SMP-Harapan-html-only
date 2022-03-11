@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SMP HARAPAN</title>
+</head>
+<body>
+	<header>
+    	<h1 align="center">SMP HARAPAN</h1>
+  	</header>
+
+  	<nav>
+	    <p align="center">
+	      <a href="index.html">Beranda</a>
+	      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	      <a href="#">Profil</a>
+	      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	      <a href="pendaftaran.html">Pendaftaran</a>
+	    </p>
+  	</nav>
+  	<hr size="3" color="grey">
+	<section>
+		<h2 align="center">PENDAFTARAN ONLINE</h2>
+		<p align="center">Mohon isi data berikut dengan sebenar-benarnya.</h4>
+		<br><br><br>
+		<form action="" method="">
+			<table border="0" width="100%" cellpadding="5" cellspacing="5">
+				<tr>
+					<td width="30%"><b>Data Calon Siswa <br></b></td>
+					<td width="30%"><b>Data Orang Tua / Wali <br></b></td>
+					<td width="30%"><b>Dokumen Persyaratan <br></b></td>
+				</tr>
+				<tr>
+					<td width="30%">
+						<label for="Nama">Nama :</label> <br>
+						<input type="text" id="Nama" placeholder="Ex : John Doe"> <br><br>
+						<label for="TmpLhr">Tempat Lahir :</label> <br>
+						<input type="text" id="TmpLhr" placeholder="Ex : Surakarta"> <br><br>
+						<label for="TglLhr">Tanggal Lahir :</label> <br>
+						<input type="date" id="TglLhr" placeholder="Ex : 09/03/2022"> <br><br>
+						<label for="Gender">Jenis Kelamin :</label> <br>
+						<input type="radio" name="Gender" value="Laki-laki"> Laki-laki
+						<input type="radio" name="Gender" value="Perempuan">Perempuan <br><br>
+						<label for="NIK">NIK :</label> <br>
+						<input type="text" id="NIK" placeholder="Nomor Induk Kependudukan"> <br><br>
+						<label for="AsalSekolah">Asal Sekolah :</label> <br>
+						<input type="text" id="AsalSekolah" placeholder="Ex : SD N 01 Karanganyar"> <br><br>
+						<label for="NilaiUN">Nilai UN :</label> <br>
+						<input type="text" id="NilaiUN" placeholder="Ex : 278,5"> <br><br>
+					</td>
+					<td width="30%"">
+						<label for="NoKK">Nomor Kartu Keluarga :</label> <br>
+						<input type="text" id="NoKK" placeholder="Nomor Kartu Keluarga"> <br><br>
+						<label for="Ayah">Nama Ayah :</label> <br>
+						<input type="text" id="Ayah" placeholder="Ex : Johnny Depp"> <br><br>
+						<label for="PekerjaanAyah">Pekerjaan Ayah :</label> <br>
+						<select name="PekerjaanAyah" id="">
+							<option value="0">Silahkan Pilih</option>
+							<option value="1">Pegawai Negeri Sipil</option>
+							<option value="2">Wirausahawan</option>
+							<option value="3">Petani</option>
+							<option value="4">Nelayan</option>
+							<option value="5">Buruh</option>
+							<option value="6">Tidak Bekerja</option>
+							<option value="7">Lainnya</option>
+						</select> <br><br>
+						<label for="Ibu">Nama Ibu :</label> <br>
+						<input type="text" id="Ibu" placeholder="Ex : Amber Heard"> <br><br>
+						<label for="PekerjaanIbu">Pekerjaan Ibu :</label> <br>
+						<select name="PekerjaanIbu" id="">
+							<option value="0">Silahkan Pilih</option>
+							<option value="1">Pegawai Negeri Sipil</option>
+							<option value="2">Wirausahawan</option>
+							<option value="3">Petani</option>
+							<option value="4">Nelayan</option>
+							<option value="5">Buruh</option>
+							<option value="6">Tidak Bekerja</option>
+							<option value="7">Lainnya</option>
+						</select> <br><br>
+						<label for="Alamat">Alamat :</label> <br>
+						<input type="text" id="Alamat" placeholder="Ex : Jl. Kapten Mulyadi No.117 Kota Surakarta"> <br><br>
+						<label for="NoTlp">Nomor Telepon :</label> <br>
+						<input type="text" id="NoTlp" placeholder="Ex : 085926917977" pattern="[0][8][0-9]{10}"> <br><br>
+					</td>
+					<td width="30%">
+						<label>Berkas dikirimkan dalam bentuk scanned document (dokumen yang di-scan) picture / photo dengan format file .jpg <br><br> <i>Ukuran file maksimal 300Kb</i> </label> <br><br>
+						<label for="FotoSiswa">Foto Calon Siswa:</label> <br>
+						<input type="file" id="FotoSiswa" name="FotoSiswa"> <br><br>
+						<label for="ScanKK">Scan Kartu Keluarga :</label> <br>
+						<input type="file" id="ScanKK" name="ScanKK"> <br><br>
+						<label for="ScanAkta">Scan Akta Kelahiram :</label> <br>
+						<input type="file" id="ScanAkta" name="ScanAkta"> <br><br>
+						<label for="ScanIjazah">Scan Ijazah SD :</label> <br>
+						<input type="file" id="ScanIjazah" name="ScanIjazah"> <br><br>
+						<label for="ScanPiagam">Scan Piagam Lomba <i>Optional</i> <br>
+						Pilih satu lomba dengan tingkat dan peringkat terbaik:</label> <br>
+						<input type="file" id="ScanPiagam" name="ScanPiagam"> <br> <br>
+						<label ></label>
+					</td>
+				</tr>
+			</table>
+			<br>
+			<center>
+				<h4>JAWABAN YANG ANDA KIRIMKAN TIDAK DIPUBLIKASIKAN</h4>
+				<p>Lengkapi formulir pendaftaran dan persyaratan yang dibutuhkan kemudian tekan “Submit” kami akan menghubungi Anda via telepon untuk konfirmasi jadwal tes masuk</p>
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">
+			</center>
+		</form>
+	</section>
+	<br><br>
+	<hr size="3" color="grey">
+  	<footer>
+	    <h3>SMP HARAPAN</h3>
+	    <div align="left">
+	      Jl. Nin Aja dulu No. 5, Strangford
+	      <br />
+	      11022 Winterfell
+	      <br />
+	      Phone +888 23 32266677
+	      <br />
+	      <a href="humas@harapan.com">humas@example.com</a>
+	    </div>
+	    <br /><br />
+	    <div>
+	      <iframe
+	        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1315.3149621599077!2d-19.54139933560142!3d63.69112734675648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48d728b07c6a3e25%3A0x3bdf51b1325e39c!2zw57Ds3JzbcO2cms!5e0!3m2!1sen!2sid!4v1646993609599!5m2!1sen!2sid"
+	        width="250" height="150" style="border: 0" allowfullscreen=""
+	        loading="lazy"></iframe>
+	    </div>
+  	</footer>
+</body>
+</html>
